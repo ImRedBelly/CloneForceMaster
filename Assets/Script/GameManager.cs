@@ -36,4 +36,9 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
+
+    void Print()
+    {
+        print("Name");
+    }
 }
